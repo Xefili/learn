@@ -31,9 +31,9 @@ const iN = process.env.INDEXNAME;
 const aI = process.env.APPID;
 const aK = process.env.APIKEY;
 export const ALGOLIA = {
-  indexName: iN,
-  appId: aI,
-  apiKey: aK
+  indexName: "edu",
+  appId: '1GTWTF80PI',
+  apiKey: '6e39cac0a8a34f96653c30be4e7abc17'
 }
 
 export type Sidebar = Record<
