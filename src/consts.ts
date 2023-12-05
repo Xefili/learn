@@ -25,11 +25,6 @@ export const EDIT_URL = `https://github.com/advanced-astro/astro-docs-template/t
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
 
 // See "Algolia" section of the README for more information.
-import dotenv from 'dotenv';
-dotenv.config();
-const iN = process.env.INDEXNAME;
-const aI = process.env.APPID;
-const aK = process.env.APIKEY;
 export const ALGOLIA = {
   indexName: "edu",
   appId: '1GTWTF80PI',
